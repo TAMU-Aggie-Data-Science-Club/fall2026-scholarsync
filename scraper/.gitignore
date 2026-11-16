@@ -1,0 +1,26 @@
+# Project data -- never committed (see DATA.md in the club repo)
+data/*
+!data/.gitkeep
+
+# Old database location, from before the move into data/processed/
+db/scholarships.db
+
+# Exported spreadsheets
+*.csv
+*.xlsx
+~$*
+
+# Common noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
